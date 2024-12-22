@@ -55,5 +55,64 @@ input {
 }
 
 /* ==================== Task 1 =========================== */
+#categories {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+  padding: 24px;
+  gap: 24px;
+}
 
+#categories .item {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  padding: 16px;
+}
+
+#categories .item h2 {
+  font-weight: 600;
+font-size: 24px;
+line-height: 1.33;
+letter-spacing: 0.04em;
+color: #2e2f42;
+padding-bottom: 16px;
+}
+
+#categories .item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#categories .item li {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+border: 1px solid #808080;
+border-radius: 4px;
+padding: 8px 16px;
+}
 /* ==================== /Task 1 =========================== */
+
+/* ==================== Task 2 =========================== */
+.gallery {
+  display: flex;
+  max-width: 1128px;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  width: calc((100% - 24px * 2) / 3);
+  height: 300px;
+}
+
+.gallery img {
+  object-fit: cover;
+  height: 100%;
+}
+/* ==================== /Task 2 =========================== */

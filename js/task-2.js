@@ -26,18 +26,13 @@ const images = [
 ];
 
 const imageElem = document.querySelector('.gallery');
-console.log(imageElem);
 
-function carTemplate(image) {
-  return `
-  <li><img src=${image.url} alt=${image.alt} /></li>
-  `;
-}
+const matkupImages = images
+  .map(
+    image => `
+  <li class="gallery-item"><img src=${image.url} alt=${image.alt} /></li>
+  `,
+  )
+  .join('');
 
-function carsTemplate(images) {
-  return images.map(carTemplate).join('');
-}
-
-const markup = carsTemplate(images);
-
-imageElem.innerHTML = markup;
+imageElem.insertAdjacentHTML('afterbegin', matkupImages);
