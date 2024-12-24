@@ -209,5 +209,123 @@ padding: 8px 16px;
 .login-form button:active {
   background-color: #6c8cff;
 }
-
 /* ==================== /Task 4 =========================== */
+
+/* ==================== Task 5 =========================== */
+.widget {
+  border-radius: 8px;
+padding: 100px 88px;
+width: 345px;
+height: 280px;
+background-color: #ffffff;
+}
+
+.text {
+  font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+margin-bottom: 16px;
+}
+
+.change-color {
+  font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+  border-radius: 8px;
+padding: 8px 16px;
+width: 148px;
+height: 40px;
+background-color: #4e75ff;
+border: none;
+} 
+/* ==================== /Task 5 =========================== */
+
+/* ==================== Task-6 ==================== */
+#controls {
+  display: flex;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  background-color: #f6f6fe;
+  margin-bottom: 16px;
+}
+
+#controls input {
+  outline: transparent;
+  border: 1px solid #808080;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 8px;
+  padding: 8px;
+  width: 150px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  text-align: center;
+}
+
+#controls input:hover {
+  border: 1px solid #000;
+}
+
+#controls button[data-create] {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 120px;
+  height: 40px;
+  background-color: #4e75ff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#controls button[data-create]:hover,
+#controls button[data-create]:focus,
+#controls button[data-create]:active {
+  background-color: #6c8cff;
+}
+
+#controls button[data-destroy] {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 120px;
+  height: 40px;
+  background-color: #ff4e4e;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#controls button[data-destroy]:hover,
+#controls button[data-destroy]:focus,
+#controls button[data-destroy]:active {
+  background-color: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  gap: 44px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #f6f6fe;
+  width: fit-content;
+}
+/* =================== /Task-6 ==================== */
